@@ -9,7 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+{
+    IBOutlet UILabel *lblTest;
+}
 @end
 
 @implementation ViewController
@@ -18,7 +20,8 @@
     [super viewDidLoad];
     NSLog(@"viewDidLoad");
     
-    NSLog(@"reverseString of  Jalpa : %@", [self reverseString:@"Jalpa"]);
+    lblTest.text = [self reverseString:@"Jalpa DJ"];
+    NSLog(@"reverseString of  Jalpa : %@", [self reverseString:@"Jalpa DJ"]);
     // Do any additional setup after loading the view.
 }
 
