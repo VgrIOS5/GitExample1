@@ -20,8 +20,9 @@
     [super viewDidLoad];
     NSLog(@"viewDidLoad");
     
-    lblTest.text = [self reverseString:@"Jalpa DJ"];
-    NSLog(@"reverseString of  Jalpa : %@", [self reverseString:@"Jalpa DJ"]);
+    lblTest.text = [self reverseString:@"This is App Center + Github Sample"];
+    NSLog(@"reverseString : %@", lblTest.text);
+    
     // Do any additional setup after loading the view.
 }
 
