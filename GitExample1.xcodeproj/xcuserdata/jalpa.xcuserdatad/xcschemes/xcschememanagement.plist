@@ -6,8 +6,28 @@
 	<dict>
 		<key>GitExample1.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A29927CF22DDB1AA0008EF37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A29927E722DDB1AB0008EF37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A29927F222DDB1AB0008EF37</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
